@@ -30,7 +30,7 @@ struct ContentView: View {
             .alert(isPresented: $isShowAlert) {
                 Alert(
                     title: Text("Хей!"),
-                    message: Text("Твой результат \(computeScore()) очков!")
+                    message: Text("Твои очки: \(computeScore())!")
                 )
             }
             .padding()
